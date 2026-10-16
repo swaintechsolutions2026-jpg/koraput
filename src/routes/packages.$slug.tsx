@@ -91,7 +91,7 @@ function PackagePage() {
               <p className="flex items-center gap-2"><Clock className="h-4 w-4 text-gold" />{p.duration}</p>
               <p className="flex items-center gap-2"><Users className="h-4 w-4 text-gold" />{p.groupSize}</p>
             </div>
-            <Link to="/contact" search={{ package: p.slug }} className="mt-8 block rounded-full bg-gold py-4 text-center font-semibold text-forest-deep">Request a Quote</Link>
+            <Link to="/contact" className="mt-8 block rounded-full bg-gold py-4 text-center font-semibold text-forest-deep">Request a Quote</Link>
             <a href={waLink(msg)} target="_blank" rel="noreferrer" className="mt-3 flex items-center justify-center gap-2 rounded-full border border-ivory/30 py-4 font-semibold">
               <MessageCircle className="h-4 w-4" /> Enquire on WhatsApp
             </a>
